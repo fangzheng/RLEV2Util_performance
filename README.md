@@ -15,10 +15,16 @@ implementations produce the same results.
 To make it a standalone test, the related files (RLEV2Util.cc and RLEV2Util.hh) are copied from orc codebase and slightly modified.
 
 To compile the test, type:
-    g++ test.cc RLEV2Util.cc -I . -O3 -o test
+
+````
+g++ test.cc RLEV2Util.cc -I . -O3 -o test
+````
 
 To run the test, type: 
-    ./test
+
+````    
+./test
+````
 
 The output looks like this on my MacBook:
 
